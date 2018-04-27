@@ -1,0 +1,424 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Datos del equipo</title>
+
+<!-- grupo CSS-->
+<link rel="stylesheet" href="css/tema4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!--nesecario*/-->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/contaminacion2.jpg','imagenes/reciclaje2.jpg')">
+<div data-role="page" id="principal" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> Contaminacion </h1>
+   </div>
+   
+   <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> La contaminacion </h1>
+   <div>
+    </div>
+    <div>
+    	<img src="imagenes/Banner1.png" width="50%" height="50%">
+        </div>
+        </div>
+        </div>
+    <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    	<h2> Definicion </h2>
+        <p>Definicion sobre la contaminacion </p>
+        </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+    	<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    	<h2> Tipos de contaminacion</h2>
+        <p> Los diferentes tipos de contaminacion </p>
+        </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Consecuencias</h2>
+        <p>Las cincecuencias que provoca la contaminacion</p>
+        </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Reciclaje </h2>
+        <p> Informacion para el reciclaje</p>
+        </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> ¿Como convatir la contaminacion? </h2>
+        <p> Metodo para convatir la contaminacion </p>
+        </a>
+        </li>
+        </ul>
+        </div>
+    
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+    <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+  </div>
+  <div>
+  	<h4> Aplicacion 4 </h4>
+  	<h4> Lopez Spezzia Juan Antonio </h4>
+    </div>
+    </div>
+    </div>
+  
+  <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>DEFINICION</h1>
+   </div>
+   <div data-role="content" align="center">
+   	<div>
+		<p> La contaminación es la introducción de sustancias u otros elementos físicos en un medio que provocan que éste sea inseguro o no apto para su uso.1​ El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia química, energía (como sonido, calor, luz o radiactividad).
+
+Es siempre una alteración negativa del estado natural del medio, y por lo general, se genera como consecuencia de la actividad humana considerándose una forma de impacto ambiental.
+
+La contaminación puede clasificarse según el tipo de fuente de donde proviene, o por la forma de contaminante que emite o medio que contamina. Existen muchos agentes contaminantes entre ellos las sustancias químicas (como plaguicidas, cianuro, herbicidas y otros.), los residuos urbanos, el petróleo, o las radiaciones ionizantes. Todos estos pueden producir enfermedades, daños en los ecosistemas o el medioambiente. Además existen muchos contaminantes gaseosos que juegan un papel importante en diferentes fenómenos atmosféricos, como la generación de lluvia ácida, el debilitamiento de la capa de ozono, y el cambio climático. </p> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/contaminacion2.jpg',1)"><img src="imagenes/contaminacion1.jpg" width="550" height="332" id="Image10"></a>
+    </div>
+    </div>
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+   	<img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4> Aplicacion 3,JALS </h4>
+   </div>
+   </div>
+   
+   
+   
+    <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>TIPOS</h1>
+   </div>
+   <div data-role="content" align="center">
+   	<div>
+		<p> 
+        <h3>Contaminación atmosférica</h3>
+
+La más conocida, es el tipo de contaminación que surge de la liberación de partículas de sustancias químicas a la atmósfera. También conocida como polución, es el tipo de contaminación que afecta a través del aire.
+ <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Atmosferica </h1>
+   <div>
+    </div>
+    <div>
+    	<img src="imagenes/atmosferica.jpg" width="50%" height="50%">
+        </div>
+        </div>
+        </div>
+
+<h3>Contaminación hídrica</h3>
+Se trata del efecto de la emisión y liberación en las aguas de sustancias contaminantes. Se dificulta o altera la vida y el uso normativo, haciéndola no potable. Habitualmente esta contaminación es de origen industrial.
+ <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Hidrica </h1>
+   <div>
+    </div>
+    <div>
+    	<img src="imagenes/hidrica.jpg" width="50%" height="50%">
+        </div>
+        </div>
+        </div>
+
+<h3>Contaminación del suelo y del subsuelo</h3>
+
+
+Provocada por la filtración de sustancias en el suelo, genera alteraciones físicas y químicas en éste que hacen que por ejemplo resulte inhabitable, se contaminen las aguas subterráneas o se imposibilite el crecimiento de vida en el área.
+ <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Suelo y subsuelo </h1>
+   <div>
+    </div>
+    <div>
+    	<img src="imagenes/suelo.jpg" width="50%" height="50%">
+        </div>
+        </div>
+        </div>
+
+<h3>Contaminación térmica</h3>
+
+Uno de los tipos de contaminación menos conocidos, es generado por el cambio de temperatura en el entorno o en diferentes medios debido a la actividad humana.
+ <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Termica </h1>
+   <div>
+    </div>
+    <div>
+    	<img src="imagenes/termica.jpg" width="50%" height="50%">
+        </div>
+        </div>
+        </div>
+ 
+<h3>Contaminación visual</h3>
+ 
+ A pesar de que en principio el concepto pueda asemejarse al de la contaminación lumínica, en este caso se hace referencia a la alteración del medio en base a estímulos visuales que no tienen que ver con la luminosidad.
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Visual  </h1>
+   <div>
+    </div>
+    <div>
+    	<img src="imagenes/visual.jpg" width="50%" height="50%">
+        </div>
+        </div>
+        </div>
+ 
+ <h3>Contaminación lumínica</h3>
+ 
+ Se trata de uno de los tipos de contaminación en la que el elemento contaminante es visual. la contaminación lumínica el elemento contaminante en sí es la emisión de luz fuera de lo que sería natural, provocando problemas como la pérdida de orientación o los cambios en los biorritmos tanto de seres humanos como de otros animales.
+  <div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+   <h1> Luminica </h1>
+   <div>
+    </div>
+    <div>
+    	<img src="imagenes/luminica.jpg" width="50%" height="50%">
+        </div>
+        </div>
+        </div>
+ 
+ </p>   	
+   	</div>
+    </div>
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+   	<img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4> Aplicacion 4,JALS </h4>
+   </div>
+   </div>
+   
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>CONSECUENCIAS</h1>
+   </div>
+   <div data-role="content" align="center">
+   	<div>
+		<p> 
+        	<h3>Debilitamiento de la capa de ozono</h3>
+            la capa de ozono es la que nos protege de los rayos del Sol, los cuales pueden llegar a ser mortíferos sin esta capa.
+        	
+            <h3>La contaminación afecta al suelo y al agua</h3>
+            la contaminación al medio ambiente afecta al agua y al suelo, lo que hace que cada vez haya más especies en peligro de extinción. 
+            
+            <h3>La contaminación afecta al clima</h3>
+            seguro que ya te has dado cuenta que los inviernos pueden ser mucho más fríos o que los veranos son mucho más calurosos, a la vez que seguro te has dado cuenta que las estaciones como la Primavera Verano y el verano pueden ser más largas y que las de temperaturas medias, son cada vez más cortas.
+            
+            <h3>Lluvia ácida</h3>
+
+La acumulación de vapores y gases tóxicos en el aire producen la formación de ácidos que caen con el agua de las lluvias dañando los cultivos, erosionando los suelos, edificaciones, esculturas y monumentos naturales, alterando la población animal y vegetal, y por supuesto al hombre.
+
+<h3>Efectos nocivos para la salud respiratoria</h3>
+
+La Agencia de Protección Ambiental de Estados Unidos ha determinado en el Índice de Calidad del Aire, que los agentes contaminantes inciden directamente en la función pulmonar y aumento en las estadísticas de ataques cardíacos produciendo graves afecciones respiratorios y enfermedades mortales como el cáncer de pulmón.
+
+ <h3>Efecto invernadero</h3>
+
+Es el fenómeno mediante el cual los gases presentes en la capa atmosférica retienen el calor emitido por la Tierra. Esta acumulación de temperatura proviene de la radiación solar y al rebotar sobre la superficie terrestre queda atrapado en la muralla de gases.
+
+<h3>Daños en los campos</h3>
+
+La contaminación del aire afecta directamente la agricultura porque las plantas desarrollan una alta sensibilidad a los agentes contaminantes que flotan en el aire que deteriora la calidad de los cultivos.}
+
+<h3>Deterioro de los materiales</h3>
+
+La combinación de los gases tóxicos que cada día desmejoran la calidad del aire que respiramos afecta al mismo tiempo los materiales utilizados en la construcción y otras superficies, disminuyendo la resistencia de los mismos.
+        </p>
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/campos_daados.jpg" alt="campos dañados" title="campos dañados" id="wows1_0"/></li>
+		<li><img src="data1/images/capa_de_ozono.jpg" alt="Capa de ozono" title="Capa de ozono" id="wows1_1"/></li>
+		<li><img src="data1/images/clima.jpg" alt="clima" title="clima" id="wows1_2"/></li>
+		<li><img src="data1/images/deterioro_de_habitats.jpg" alt="Deterioro de habitats" title="Deterioro de habitats" id="wows1_3"/></li>
+		<li><img src="data1/images/deterioro_de_materiales.jpg" alt="deterioro de materiales" title="deterioro de materiales" id="wows1_4"/></li>
+		<li><img src="data1/images/efecto_invernadero.jpg" alt="efecto invernadero" title="efecto invernadero" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/lluvia_acida.jpg" alt="wowslider" title="lluvia acida" id="wows1_6"/></a></li>
+		<li><img src="data1/images/salud_respiratoria.jpg" alt="salud respiratoria" title="salud respiratoria" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="campos dañados"><span><img src="data1/tooltips/campos_daados.jpg" alt="campos dañados"/>1</span></a>
+		<a href="#" title="Capa de ozono"><span><img src="data1/tooltips/capa_de_ozono.jpg" alt="Capa de ozono"/>2</span></a>
+		<a href="#" title="clima"><span><img src="data1/tooltips/clima.jpg" alt="clima"/>3</span></a>
+		<a href="#" title="Deterioro de habitats"><span><img src="data1/tooltips/deterioro_de_habitats.jpg" alt="Deterioro de habitats"/>4</span></a>
+		<a href="#" title="deterioro de materiales"><span><img src="data1/tooltips/deterioro_de_materiales.jpg" alt="deterioro de materiales"/>5</span></a>
+		<a href="#" title="efecto invernadero"><span><img src="data1/tooltips/efecto_invernadero.jpg" alt="efecto invernadero"/>6</span></a>
+		<a href="#" title="lluvia acida"><span><img src="data1/tooltips/lluvia_acida.jpg" alt="lluvia acida"/>7</span></a>
+		<a href="#" title="salud respiratoria"><span><img src="data1/tooltips/salud_respiratoria.jpg" alt="salud respiratoria"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->   	
+   	</div>
+    </div>
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+   	<img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4> Aplicacion 4,JALS </h4>
+   </div>
+   </div>
+   
+    <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>RECICLAJE</h1>
+   </div>
+   <div data-role="content" align="center">
+   	<div>
+		<p> El reciclaje es un proceso cuyo objetivo es convertir desechos en nuevos productos o en materia para su posterior utilización.
+
+Gracias al reciclaje se previene el desuso de materiales potencialmente útiles, se reduce el consumo de nueva materia prima, además de reducir el uso de energía, la contaminación del aire (a través de la incineración) y del agua (a través de los vertederos), así como también disminuir las emisiones de gases de efecto invernadero en comparación con la producción de plásticos.
+
+El reciclaje es un componente clave en la reducción de desechos contemporáneos y es el segundo componente de las 3R («Reducir, Reciclar y Reutilizar»).
+
+Los materiales reciclables son muchos, e incluyen todo el papel y cartón, el vidrio, los metales ferrosos y no ferrosos, algunos plásticos, telas y textiles, maderas y componentes electrónicos. En otros casos no es posible llevar a cabo un reciclaje debido a la dificultad técnica o alto coste del proceso, de modo que suele reutilizarse el material o los productos para producir otros materiales y se destinan a otras finalidades, como el aprovechamiento energético.
+
+También es posible realizar un salvamento de componentes de ciertos productos complejos, ya sea por su valor intrínseco o por su naturaleza peligrosa.</p>
+
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image32','','imagenes/reciclaje2.jpg',1)"><img src="imagenes/reciclaje1.jpg" width="450" height="254" id="Image32"></a> 
+      <br>
+      <a href="https://es.wikipedia.org/wiki/Reciclaje"  target="_self">Puchale aqui para mas informacioin</a>
+
+          	
+   	</div>
+    </div>
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+   	<img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   <h4> Aplicacion 4,JALS </h4>
+   </div>
+   </div>
+   
+      <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="c">
+   <h1>METODOS PARA CONVATIR LA CONTAMINACION</h1>
+   </div>
+   <div data-role="content" align="center">
+   	<div>
+		<h3> Afina y da mantenimiento a los automóviles
+<br>
+<br>
+– Evita quemar basura y llantas, así como el uso de cohetes artificiales
+<br>
+<br>
+– Evita comprar artículos desechables y plásticos que no son biodegradables.
+<br>
+<br>
+– Recicla la basura
+<br>
+<br>
+– No arrojes basura en la calle, bosques y parques, envuélvela o tápala bien en la casa
+<br>
+<br>
+– Usa racionalmente los plaguicidas
+<br>
+<br>
+– Evita el consumo de tabaco
+<br>
+<br>
+– Cuida los bosques al no provocar incendios ni destruir las zonas verdes de la ciudad
+<br>
+<br>
+– Pospón las tareas de jardinería que requieran el uso de herramientas a gasolina en días de alto nivel de de ozono.
+<br>
+<br>
+– Consume alimentos orgánicos o al menos aquellos no hayan sido sometidos a un uso tan intensivo de agroquímicos. (puedes cultivarlos en tú azotea con composta hecha por ti mismo)
+<br>
+<br>
+– Restringe la limpieza en seco.
+<br>
+<br>
+– Evita el uso de pinturas, aceites y solventes en días de alta concentración de ozono.
+<br>
+<br>
+– Reduce el consumo de electricidad, lo cual contribuirá a disminuir las emanaciones de contaminantes y partículas.
+<br>
+<br>
+– Prende el carbón de leña con un encendedor eléctrico en vez de hacerlo con combustible líquido.
+<br>
+<br>
+– Aplica el poder de las 3 Erres: Reduce-Reutiliza-Recicla. Un menor consumo redundará en menor contaminación atmosférica de todo tipo. </h3> 
+<br>
+<br>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/atlixco.jpg" alt="atlixco" title="atlixco" id="wows2_0"/></li>
+		<li><img src="data2/images/cbtis.jpg" alt="cbtis" title="cbtis" id="wows2_1"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/infona.jpg" alt="slider" title="infona" id="wows2_2"/></a></li>
+		<li><img src="data2/images/villa.jpg" alt="villa" title="villa" id="wows2_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="atlixco"><span><img src="data2/tooltips/atlixco.jpg" alt="atlixco"/>1</span></a>
+		<a href="#" title="cbtis"><span><img src="data2/tooltips/cbtis.jpg" alt="cbtis"/>2</span></a>
+		<a href="#" title="infona"><span><img src="data2/tooltips/infona.jpg" alt="infona"/>3</span></a>
+		<a href="#" title="villa"><span><img src="data2/tooltips/villa.jpg" alt="villa"/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section --> 	
+   	</div>
+    </div>
+   <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+   	<img src="imagenes/persona_azul.png" width="46" height="46">
+   </div>
+   	<h4> Aplicacion Dos,JALS </h4>
+   </div>
+   </div>
+
+</body>
+</html>
