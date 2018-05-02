@@ -24,6 +24,13 @@
 	<preference name="android-installLocation" value="auto"/>
 	<prefernce name="permission" value="INTERNET"/>
 	
+		<!--Para accesar a paginas en internet-->
+	<allow-intent href="https://*/*"/>
+	<acces origin="https://*/*"/>
+	<allow-intent href="http://*/*"/>
+	<plugin name="cordova-plugin-whitelist" source="npm"/>
+	
+	
 	<!--Plugins->
 	<!-Core plugins-->
 	<plugin name="cordova-plugin-device" spec="~1.1.4"/>
